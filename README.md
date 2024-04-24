@@ -1,8 +1,25 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Random Password Generator created using React and Vite
 
-Currently, two official plugins are available:
+Features of the App :
+- Password can be in range of 8 character to 26 character
+- You can include Upper Case Letter
+- You can include Lower Case Letter
+- You can include Numbers
+- You can include Special Characters
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+To Run this App follow these steps :
+- clone this repository in your device
+- nevigate to that folder
+- run the following command
+```bash
+npm install react-toastify react-icons
+```
+- After installing dependencies run the app :
+```bash
+npm run dev
+```
+
+Outout:
+![image](https://github.com/KaranMakadiya757/Password-Generator/assets/166399212/4413c2ef-d2e0-45ee-be6a-af7949140c04)
