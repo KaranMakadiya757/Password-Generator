@@ -2,22 +2,22 @@
 
 Random Password Generator created using React and Vite
 
-Features of the App :
+## Features of the App :
 - Password can be in range of 8 character to 26 character
 - You can include Upper Case Letter
 - You can include Lower Case Letter
 - You can include Numbers
 - You can include Special Characters
 
-To Run this App follow these steps :
+## To Run this App follow these steps :
 - clone this repository in your device
 - nevigate to that folder
 - run the following command
-```bash
+```
 npm install react-toastify react-icons
 ```
 - After installing dependencies run the app :
-```bash
+```
 npm run dev
 ```
 
