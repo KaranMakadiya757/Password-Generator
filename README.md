@@ -1,4 +1,4 @@
-# React + Vite
+# React + Vite + Tailwind
 
 Random Password Generator created using React and Vite
 
@@ -21,5 +21,6 @@ npm install react-toastify react-icons
 npm run dev
 ```
 
-Outout:
+Output:
+
 ![image](https://github.com/KaranMakadiya757/Password-Generator/assets/166399212/4413c2ef-d2e0-45ee-be6a-af7949140c04)
