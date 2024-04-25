@@ -94,19 +94,19 @@ const App = () => {
   }
 
   return (
-    <div className="App">
-      <div className="container">
-        <div className="generator">
-          <h2 className="generator__header">
+    <div className='flex justify-center items-center h-screen'>
+      <div >
+        <div className='rounded-xl shadow-lg p-8 bg-gradient-to-br from-teal-400 to-yellow-100'>
+          <h2 className='text-center text-emerald-900 mb-5 text-xl'>
             Password Generator
           </h2>
-          <div className="generator__password">
+          <div className='bg-green-600 py-3 px-2 text-white mb-4 h-11 flex justify-between'>
             <h3 >{password}</h3>
-            <button className="copy__btn">
+            <button className='text-white bg-green-600 border-none cursor-pointer'>
               <i onClick={handleCopyPassword} className="far fa-clipboard"><FaClipboard /></i>
             </button>
           </div>
-          <div className="form-group">
+          <div className='flex justify-between text-gray-700 mb-4'>
             <label htmlFor="password-strength">Password length</label>
             <input
               className="pw"
@@ -119,7 +119,7 @@ const App = () => {
               onChange={(e) => setPasswordLength(e.target.value)}
             />
           </div>
-          <div className="form-group">
+          <div className='flex justify-between text-gray-700 mb-4'>
             <label htmlFor="uppercase-letters">Add Uppercase Letters</label>
             <input
               checked={includeUpperCase}
@@ -129,7 +129,7 @@ const App = () => {
               onChange={(e) => setIncludeUpperCase(e.target.checked)}
             />
           </div>
-          <div className="form-group">
+          <div className='flex justify-between text-gray-700 mb-4'>
             <label htmlFor="lowercase-letters">Add Lowercase Letters</label>
             <input
               checked={includeLowerCase}
@@ -139,7 +139,7 @@ const App = () => {
               onChange={(e) => setIncludeLowerCase(e.target.checked)}
             />
           </div>
-          <div className="form-group">
+          <div className='flex justify-between text-gray-700 mb-4'>
             <label htmlFor="include-numbers">Include Numbers</label>
             <input
               checked={includeNumbers}
@@ -149,7 +149,7 @@ const App = () => {
               onChange={(e) => setIncludeNumbers(e.target.checked)}
             />
           </div>
-          <div className="form-group">
+          <div className='flex justify-between text-gray-700 mb-4'>
             <label htmlFor="include-symbols">Include Symbols</label>
             <input
               checked={includeSymbols}
@@ -159,7 +159,7 @@ const App = () => {
               onChange={(e) => setIncludeSymbols(e.target.checked)}
             />
           </div>
-          <button onClick={handleGeneratePassword} className="generator__btn">
+          <button onClick={handleGeneratePassword} className='bg-green-600 border-none mt-3 p-3 text-white rounded-3xl w-full text-base cursor-pointer'>
             Generate Password
           </button>
           <ToastContainer
